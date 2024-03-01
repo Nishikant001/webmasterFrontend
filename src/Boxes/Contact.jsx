@@ -4,6 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
+    let URI="https://webmasterbackend-1.onrender.com"
   let [form,setForm]=useState({
     name:'',
     email:'',
@@ -20,7 +21,7 @@ async function click(e){
     e.preventDefault()
     // setForm()
     // console.log(form)
-    let responce=await fetch('https://webmasterbackend-1.onrender.com/api/user/contact',{
+    let responce=await fetch(`${URI}/api/user/contact`,{
         method:'POST',
         body:JSON.stringify(form),
         headers:{

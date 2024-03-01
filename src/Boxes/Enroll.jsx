@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
 const Enroll = () => {
+    let URI="https://webmasterbackend-1.onrender.com"
     let [form,setForm]=useState({
         name:'',
         email:'',
@@ -20,7 +21,7 @@ const Enroll = () => {
     async function click(e){
         e.preventDefault()
         try {
-            let responce1=await fetch("https://webmasterbackend-1.onrender.com/api/user/enroll",{
+            let responce1=await fetch(`${URI}/api/user/enroll`,{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json"
