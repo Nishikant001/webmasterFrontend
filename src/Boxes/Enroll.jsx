@@ -33,7 +33,7 @@ const Enroll = () => {
             })
             if (! responce1.ok) {
                 toast.error('Enrollment faild')
-                console.log(responce.status)
+                // console.log(responce1.status)
                 
             }else{
                 let enn= await responce1.json()
