@@ -50,7 +50,7 @@ async function click(e){
         <h1 className='conhead'>Contact Us</h1>
         <div className="row">
             <div className="col-lg-6 form">
-                <form action="" className='form1' onSubmit={click}>
+                <form action="https://formspree.io/f/xleqnzrj" method="POST" className='form1' onSubmit={click}>
                     <input type="text" name="name" id="" className='contactinp' placeholder='Your Name' required onChange={change}/><br />
                     <input type="email" name="email" id="" className='contactinp' placeholder='Your Email' required onChange={change}/><br />
                     <input type="number" name="number" id="" className='contactinp' placeholder='Your Contact Number' required onChange={change}/><br />
