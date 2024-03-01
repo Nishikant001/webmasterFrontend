@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+/* .cor1{
+    
+    border: 2px solid blue;
+    height: 110px;
+    width: 100%;
+} */
+.cor1 h2{
+    position: relative;
+    top: 10px;    
+    left: 500px;
+    box-shadow: 15px 12px 20px 2px;
+    border-radius: 10px;
+    width: 17%;
+    padding: 5px;
+    animation: co 1s 2 ease-in-out alternate-reverse;
+    background-color: lightsalmon;
+
+}
+@keyframes co {
+    0%{
+        top: 0;
+        
+
+    }
+    25%{
+        top: 30px;
+
+    }
+    50%{
+        top: 3px;
+
+    }
+    75%{
+        top: 15px;
+
+    }
+    100%{
+        top: 10px;
+    }
+   
+    
+}
+.cor1 h3{
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-weight: 900; */
+    position: relative;
+    left: 50px;
+    top: 30px;
+    /* box-shadow: 10px 10px 29px 5px; */
+    width: 30%;
+    text-align: center;
+    /* background-color:lightgray ; */
+    /* border-radius: 30px; */
+    /* text-shadow: 100px 100px 100px 100px; */
+
+}
+.n1{
+    /* border: 2px solid red; */
+    /* height: 100px; */
+    position: relative;
+    top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 150vh;
+    grid-auto-flow: -300px;
+}
+.w2{
+    /* border: 2px solid red; */
+   height: 70vh;
+
+
+}
+.h31{
+    width:30% ;
+}
+.cou6{
+    display: none;
+    position: relative;
+    left: 540px;
+    width: 20%;
+    /* width: 100px; */
+}
+.cou6 button{
+    display: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(85, 134, 247);
+    color: white;
+}
+.nishi{
+    display: grid;
+        /* flex-wrap: wrap; */
+        grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (min-width:375px) and (max-width:600px){
+    .n1{
+        /* border: 2px solid red; */
+        /* height: 100px; */
+        /* position: relative;
+        top: 20px; */
+       display: block;
+    }
+    .nishi{
+        display: block;
+    }
+    .cor1 h2{
+        left: 90px;
+        width: 48%;
+    }
+    .cou6{
+        left: 170px;
+        width: 30%;
+        top: 10px;
+        display: block;
+    }
+    .cou6 button{
+        height: 30px;
+        width: 100px;
+        display: block;
+    }
+
+}
+
+
+@media screen and (min-width:400px) and (max-width:426px){
+    .n1{
+        /* border: 2px solid red; */
+        /* height: 100px; */
+        /* position: relative;
+        top: 20px; */
+        display: block;
+       
+    }
+    .nishi{
+        display: block;
+    }
+    .cor1 h2{
+        left: 150px;
+        width: 40%;
+    }
+    .cou6{
+        left: 140px;
+        top: 10px;
+        width: 30%;
+        display: block;
+    }
+    .cou6 button{
+        height: 30px;
+        width: 100px;
+        display: block;
+    }
+
+}
+@media screen and (min-width:601px) and (max-width:800px){
+    .cor1 h2{
+        width: 27%;
+        left: 10em;
+    }
+    .cou6{
+        display: none;
+        left: 350px;
+        top: 10px;
+    }
+    .nishi{
+        display: block;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1025px){
+    .cor1 h2{
+        width: 22%;
+        left: 13em;
+    }
+    .cou6{
+        display: none;
+
+    }
+    .nishi{
+        display: block;
+    }
+}
+@media screen and (max-width:1026px) and (min-width:1290px){
+    .nishi{
+        display: grid ;
+        /* flex-wrap: wrap; */
+        grid-template-columns: 1fr 1fr 1fr ;
+        /* flex-direction: column; */
+    }
+ }
+@media screen and (min-width:1300px) and (max-width:1441px){
+    .cor1 h2{
+        width: 22%;
+        left: 13em;
+    }
+    .cor1 h2{
+        width: 17%;
+        left: 18em;
+    }
+    .cou6{
+        display: none;
+    }
+    .nishi{
+        display: grid;
+        /* flex-wrap: wrap; */
+        grid-template-columns: 1fr 1fr 1fr;
+        /* flex-direction: column; */
+    }
+
+}
+
+@media screen and (min-width:1530px){
+    .cor1 h2{
+        width: 17%;
+        left: 20em;
+    }
+    .cou6{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+

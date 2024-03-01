@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+
+.n{
+    /* border: 2px solid ; */
+    height: 400px;
+    background-color: whitesmoke;
+}
+.l{
+    font-size: 60px;
+    animation: nishi 2s infinite alternate-reverse;
+    color: lightsalmon;
+    width: 60%;
+    position: relative;
+    left: 6em;
+    top: 600px;
+
+}
+.u{
+    position: relative;
+    top: 77px;
+    left: 12em;
+    font-family: 'Kalnia', serif;
+    font-weight: 700;
+    width: 60%;
+}
+
+@keyframes nishi {
+    0%{
+        top: 80px;
+    }
+    
+
+    100%{
+        top: 110px;
+    }
+    
+}
+
+
+@media screen and (min-width:375px) and (max-width:600px) {
+    .n{
+        /* border: 2px solid ; */
+        height: 400px;
+    }
+    .u{
+        position: relative;
+        top: 50px;
+        left: 40px;
+        width: 80%;
+        padding: 10px;
+        font-family: 'Kalnia', serif;
+        font-weight: 700;
+        font-size:17px;
+    }
+    .l{
+        position: relative;
+        top: 10px;
+        left: 30px;
+        width: 90%;
+        font-size: 35px;
+        animation: nishi 2s infinite alternate-reverse;
+    }
+    @keyframes nishi {
+        0%{
+            top: 20px;
+        }
+        
+    
+        100%{
+            top: 80px;
+        }
+        
+    }
+   
+    
+}
+@media screen and (min-width:601px) and (max-width:900px) {
+    .u{
+        width: 70%;
+        left: 5em;
+    }
+    .l{
+        left: 2em;
+        width: 80%;
+    }
+    
+}
+@media screen and (min-width:1002px) and (max-width:1026px) {
+    .u{
+        width: 60%;
+        left: 230px;
+    }
+    .l{
+        width: 60%;
+        left:230px ;
+    }
+}
+@media screen and (min-width:1299px) and (max-width:1440px) {
+    h1{
+        width: 60%;
+        left: 400px;
+    }
+    h2{
+        width: 60%;
+        left: 400px;
+    }
+    
+}
+@media screen and (min-width:1506px) {
+    .u{
+        width: 60%;
+        left: 16em;
+    }
+    .l{
+        width: 60%;
+        left: 8.2em;
+
+    }
+}

@@ -1,0 +1,352 @@
+.a1{
+    /* border: 2px solid red; */
+    height: 300vh;
+    /* background-image: url('https://www.dice.com/binaries/medium/content/gallery/dice/insights/2021/05/shutterstock_705666280.jpg'); */
+    /* width: 100%; */
+}
+.abou1{
+    height: 34em;
+    background-image: url('https://www.careers.govt.nz/assets/jobs/game-developer/Game-designer-GettyImages-1206827491.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.abou1 p{
+    z-index: 10;
+    position: relative;
+    left: 13.6em;
+    top:7em ;
+    font-size: 40px;
+    width: 20%;
+    font-variant: small-caps;
+}
+.abou2 img{
+    position: relative;
+    top: 3em;
+    left: 3em;
+}
+.abou3 h5,h2{
+    position: relative;
+    top: 5em;
+
+}
+.abou3 h5{
+    top: 7em;
+    color: rgb(81, 113, 199);
+}
+.abou4{
+    /* border: 1px solid gray; */
+    background-color: whitesmoke;
+    height: 130px;
+    position: relative;
+    top: 10em;
+    margin-top: 5px;
+    color: darkcyan;
+}
+/* .abou4:hover{
+    background-color:darkcyan ;
+    color: white;
+} */
+.ico1{
+    position: relative;
+    top: 2em;
+    left: 1em;
+    
+    /* height: 200px; */
+}
+.over{
+    /* overflow: hidden; */
+}
+.ico2{
+    position: relative;
+    left:13em;
+    top: -3em;
+    font-size: 20px;
+    width: 50%;
+}
+.ico3{
+    position: relative;
+    left: 8em;
+    top: -4em;
+    width: 70%;
+
+}
+.todo{
+    height: 15em;
+    position: relative;
+    top: 15em;
+    /* border: 2px solid red; */
+}
+#x{
+    position: relative;
+    left: 10em;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    /* size: 50px; */
+    font-variant: small-caps;
+    border: none;
+}
+.btn{
+    position: relative;
+    left: -18em;
+    top: 10em;
+    background-color: rgb(36, 126, 200);
+    /* padding-bottom: 70px; */
+    /* border-radius: 10px; */
+    /* size: 50px; */
+    /* font-variant: small-caps; */
+    /* border: none; */
+    
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.todomenu{
+    position: relative;
+    top: 5em;
+    left: 9em;
+    font-size: 30px;
+       display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 70%;
+    font-variant: small-caps;
+
+}
+.todomenu li{
+    /* border: 2px solid blue; */
+    width: 70%;
+    height: 100px;
+    overflow:auto;
+    background-color: gray;
+    border-bottom: 2px solid black;
+    border-radius: 6px;
+    margin-top: 3px;
+
+ 
+}
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:397px){
+    .abou1 p{
+        left: 2.3em;
+        width: 70%;
+
+    }
+    .abou1{
+        background-position-x: -20em;
+    }
+    .abou2 img{
+        left: 1.6em;
+        height: 300px;
+        width: 300px;
+    }
+    .abou3 h2{
+        left: 2.6em;
+        top: 5em;
+        width: 90%;
+    }
+    .a1{
+        height: 240vh;
+    }
+    .abou3 h5{
+        left: 4.6em;
+        top: 5em;
+        width: 60%;
+
+    }
+    .ico2{
+        left: 6em;
+        top: -3.5em;
+    }
+    .ico3{
+        left: 6em;
+        top: -5em;
+    }
+    .abou4{
+        margin-top: 3px;
+    }
+    #x{
+        left: 0em;
+        width: 100%;
+    }
+    .btn{
+        top: 3em;
+          left: 0em;
+        width: 100%;
+
+    }
+    .todomenu{
+        left: 2.6em;
+    }
+    .btn2{
+        top: -4em !important;
+        left: 8em !important;
+    }
+}
+@media screen and (min-width:400px) and (max-width:426px){
+    .abou1 p{
+        left: 2.3em;
+        width: 70%;
+
+    }
+    .todomenu{
+        left: 2.6em;
+    }
+    .btn2{
+        top: -4em !important;
+    }
+   
+    .a1{
+        height: 240vh;
+    }
+    .abou1{
+        background-position-x: -20em;
+    }
+    .abou2 img{
+        left: 2.9em;
+        height: 300px;
+        width: 300px;
+    }
+    .abou3 h2{
+        left: 2.9em;
+        top: 5em;
+        width: 90%;
+    }
+    .abou3 h5{
+        left: 5.3em;
+        top: 5em;
+        width: 60%;
+
+    }
+    .ico2{
+        left: 6em;
+        top: -3.5em;
+    }
+    .ico3{
+        left: 7em;
+        top: -5em;
+    }
+     #x{
+        left: 0em;
+        width: 100%;
+    }
+    .btn{
+        top: 3em;
+          left: 0em;
+        width: 100%;
+
+    }
+}
+@media screen and (min-width:601px) and (max-width:800px){
+    .abou1 p{
+        left: 6.3em;
+        top: 9em;
+        width: 65%;
+
+    }
+    .abou2 img{
+        left: 7em;
+        height: 500px;
+        width: 500px;
+    }
+    .abou3 h2{
+        left: 4.1em;
+        top: 5em;
+        width: 80%;
+    }
+    .abou3 h5{
+        left: 14.3em;
+        top: 5em;
+        width: 40%;
+
+    }
+     #x{
+        left: 0em;
+        width: 100%;
+    }
+    .btn{
+        top: 3em;
+          left: 0em;
+        width: 100%;
+
+    }
+       .a1{
+        height: 100vh;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1025px){
+    .abou1 p{
+        left: 9.3em;
+        top: 9em;
+        width: 40%;
+
+    }
+    .abou2 img{
+        /* left: 19em; */
+        height: 400px;
+        width: 400px;
+    }
+    .ico2{
+        left: 7em;
+    }
+     #x{
+        left: 0em;
+        width: 100%;
+    }
+    .btn{
+        top: 3em;
+          left: 0em;
+        width: 100%;
+
+    }
+      .a1{
+        height: 100vh;
+    }
+}
+@media screen and (min-width:1300px) and (max-width:1441px){
+    .abou3 h2{
+        left: 0;
+        width: 80%;
+    }
+    .abou3 h5{
+        width: 40%;
+    }
+    .a1{
+        height: 200vh;
+    }
+      .btn{
+        left: -9em;
+
+    }
+      .a1{
+        height: 200vh;
+    }
+    #x{
+        left: 20em;
+    }
+    .todomenu{
+        left: 13em;
+    }
+}
+@media screen and (min-width:1530px){
+    .abou3{
+        top: -10em;
+    }
+    .btn{
+        left: -9em;
+
+    }
+    #x{
+        left: 20em;
+    }
+    .todomenu{
+        left: 13em;
+    }
+    .a1{
+        height: 200vh;
+    }
+}
